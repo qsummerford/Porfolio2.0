@@ -1,3 +1,7 @@
+.media_screen_message{
+    margin-right: 225px;
+}
+
 .name_title{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -359,7 +363,7 @@ html, body{
     }
 }
 
-@media screen and (max-width: 1440px) and (min-width: 1024px){
+/* @media screen and (max-width: 1440px) and (min-width: 1024px){
     .name_title{
         font-family: 'Poppins', sans-serif;
         text-align: center;
@@ -447,9 +451,9 @@ html, body{
     .github_button{
         border: black solid 2px;
         border-radius: .4em;
-        width: 25%;
-        font-size: 12px;
-        margin-left: 135px;
+        width:45%;
+        font-size: 18px;
+        margin-left: 95px;
         background-color: black;
         transition: .2s all ease;
     }
@@ -485,6 +489,151 @@ html, body{
     .spring_logo{
         width: 325px;
         height: 175px;
+        border: solid 2px black;  
+    }
+    
+    .github_logo{
+        height: 50px;
+        width: 50px;
+        border-radius: 0.4em;
+        float: right;
+    }
+    
+    .gmail_logo{
+        height: 50px;
+        width: 50px;
+        border-radius: 0.4em;
+    }
+    
+    .linkedin_logo{
+        height: 50px;
+        width: 50px;
+        border-radius: 0.4em;
+        float: left;
+    }
+    
+    .contact_box{
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+        margin-top: 75px;
+    }
+} */
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .nav_row{
+        margin-left: 285px;
+    }
+
+    .project_row{
+        margin-left: 295px;
+    }
+
+    .project_greeting{
+        font-size: 17px;
+    }
+    
+    .line_under_name{
+        width: 85%;
+    }
+
+    .container{
+        margin: 0 auto;
+        max-width: 112rem;
+        padding-right: 0 2rem;
+        position: relative;
+        width: 97%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .port_img {
+        width: 180px;
+        height: 240px;
+    }
+    
+    .picture_left{
+        float: left;
+        margin: 0 2rem 2rem 0;
+        padding: 0.5rem 0 0 0;
+    }
+    
+    .project_box{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .project_text{
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    
+    .project_column{
+        width: 25%;
+        text-align: center;
+        margin-left: 55px;
+        cursor: pointer;
+    }
+    
+    .django_project{
+        width: 300px;
+        height: 150px;
+        border: solid 2px black;
+    }
+    
+    .js_project{
+        width: 300px;
+        height: 150px;
+        border: solid 2px black;
+    }
+    
+    .python_project{
+        width: 300px;
+        height: 150px;
+        border: solid 2px black;
+    }
+    
+    .github_button{
+        border: black solid 2px;
+        border-radius: .4em;
+        width:45%;
+        font-size: 18px;
+        margin-left: 95px;
+        background-color: black;
+        transition: .2s all ease;
+    }
+    
+    .github_button:hover{
+        background-color: white;
+        transition: .2s all ease;
+    }
+    
+    .github_button a {
+        color: white;
+        background-color: black;
+        transition: .2s all ease;
+    }
+    
+    .github_button a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .capstone_project{
+        width: 300px;
+        height: 150px;
+        border: solid 2px black;
+    }
+    
+    .personal_python_project{
+        width: 300px;
+        height: 150px;
+        border: solid 2px black;
+    }
+    
+    .spring_logo{
+        width: 300px;
+        height: 150px;
         border: solid 2px black;  
     }
     
